@@ -1,0 +1,9 @@
+.top_nav {
+    border: .5px solid black;
+    width: 95vw;
+    height: 12vh;
+}
+
+.top_a {
+    margin: 0 1vw 0 1vw;
+}

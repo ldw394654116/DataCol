@@ -1,0 +1,12 @@
+.left_nav {
+    display: flex;
+    flex-direction: column;
+    border: .5px solid black;
+    width: 10vw;
+    height: 60vh;
+    margin-top: 1vh;
+}
+
+.left_a {
+    margin: 0 1vw 0 1vw;
+}
