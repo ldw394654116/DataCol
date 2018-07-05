@@ -2,8 +2,18 @@
     border: .5px solid black;
     width: 95vw;
     height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .top_a {
-    margin: 0 1vw 0 1vw;
+    width: 20vw;
+    height: 10vh;
+    border: 1px solid chocolate;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import {left_info} from './Info'
 require('../css/InfoBox.css');
 
 class InfoBox extends React.Component {
@@ -10,13 +9,13 @@ class InfoBox extends React.Component {
 
     render() {
         return(
-            <main>
-            <h3>title</h3>
-            <section>section</section>
+            <main className='infobox_main'>
+                <h3>title</h3>
+                <section>section</section>
             </main>
         )
     }
 
 }
 
-export default TopLink
+export default InfoBox

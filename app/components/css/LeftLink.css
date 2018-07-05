@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     border: .5px solid black;
-    width: 10vw;
+    width: 6vw;
     height: 60vh;
     margin-top: 1vh;
 }

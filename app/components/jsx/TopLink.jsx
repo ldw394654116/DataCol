@@ -1,13 +1,11 @@
 import React from 'react'
-import {top_info} from './Info'
-require('../css/TopLink.css');
+import {top_info} from '../js/Info'
+require('../css/TopLink.css')
 
-class TopLink extends React.Component {
-    
+class TopLink extends React.Component {    
     constructor(props){
         super(props);
     }
-
     render() {
         return(
             <nav className="top_nav">

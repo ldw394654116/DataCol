@@ -1,5 +1,5 @@
 import React from 'react'
-import {left_info} from './Info'
+import {left_info} from '../js/Info'
 require('../css/LeftLink.css');
 
 class LeftLink extends React.Component {
