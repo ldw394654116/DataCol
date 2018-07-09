@@ -1,9 +1,26 @@
 import React from 'react'
+import G from '../js/User_info'
 require('../css/Login.css');
 
 class Login extends React.Component {
     constructor(props){
         super(props);
+    }
+
+    componentDidMount(){
+        console.table(G('xy1'));
+    }
+
+    componentWillMount(){
+        
+        var exid = prompt('enter logid');
+        if(exid){
+            var expd = prompt('enter password');
+        }
+        var info = G(exid);
+        if(exid === info.login_name && expd === info.password){
+            alert('login success!');
+        }
     }
 
     render(){

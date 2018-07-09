@@ -1,7 +1,6 @@
 import React from 'react'
 import TopLink from './TopLink'
 import LeftLink from './LeftLink'
-import {db_build} from '../js/DataBase'
 import InfoBox from './InfoBox'
 import Login from './Login'
 
@@ -9,8 +8,7 @@ require('../css/App.css')
 
 class App extends React.Component {  
   
-  render() {
-    db_build()   
+  render() {  
     return (
       // <main>    
 
